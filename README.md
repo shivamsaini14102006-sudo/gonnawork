@@ -45,7 +45,6 @@ gonnawork/
 │   ├── job_description.md
 │   ├── candidates.jsonl
 │   ├── sample_candidates.json
-│   └── candidates_schema.json
 │
 ├── scripts/
 │   ├── loader.py
@@ -58,9 +57,7 @@ gonnawork/
 │
 ├── artifacts/
 │   ├── jd_profile_schema.md
-│   └── candidate_profile_schema.md
-│
-└── tests/
+│   └── candidate_schema.json
 ```
 
 ---
