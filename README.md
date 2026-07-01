@@ -226,9 +226,7 @@ Features:
 # Installation
 
 ```bash
-git clone <repository>
-
-cd gonnawork
+git clone https://github.com/shivamsaini14102006-sudo/gonnawork.git
 
 pip install -r requirements.txt
 ```
@@ -263,7 +261,7 @@ python validate_submission.py outputs/submission.csv
 
 A hosted demonstration of the ranking system is available at:
 
-**🔗 Sandbox:** https://YOUR_DEPLOYED_LINK
+**🔗 Sandbox:** https://qwertpassd.streamlit.app/
 
 The sandbox uses the same ranking pipeline as the CLI implementation.
 
@@ -331,38 +329,11 @@ The ranking engine was designed around the following engineering principles:
 
 ---
 
-# Reproducibility
-
-This repository is fully reproducible.
-
-Running
-
-```bash
-python -m scripts.rank
-```
-
-will regenerate
-
-```
-outputs/submission.csv
-```
-
-using the benchmark Job Description and candidate dataset contained within the repository.
-
-The output can be verified using
-
-```bash
-python validate_submission.py outputs/submission.csv
-```
-
----
-
 # Future Improvements
 
 Potential future extensions include:
 
 - Structured Job Description profiles
-- Ontology-based skill matching
 - Semantic responsibility matching
 - Advanced candidate feature engineering
 - Enhanced explainability
@@ -376,9 +347,6 @@ Potential future extensions include:
 
 Install all dependencies with:
 
-```bash
-pip install -r requirements.txt
-```
 
 ---
 
