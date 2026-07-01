@@ -6,13 +6,12 @@ team_name: "TOPkACE"  # Used in leaderboard and announcements
 primary_contact:
   name: "shivam saini"
   email: "shivamsaini14102006@gmail.com"   # Used for all organizer communication
-  phone: "+91-9350511524"        # Used for top-50 / top-10 outreach
+  phone: "+91-9350511000"        # Used for top-50 / top-10 outreach
 
 team_members:
   - name: "shivam saini"
     email: "shivamsaini14102006@gmail.com"
-    role: "ML Engineer"          # Optional, e.g. "Team Lead", "Backend", "Data"
-  # Add more members as needed; solo participants list just one member
+    # Add more members as needed; solo participants list just one member
 
 # ============================================================================
 # Code and reproducibility
@@ -34,7 +33,7 @@ reproduce_command: "python rank.py --candidates ./candidates.jsonl --out ./submi
 # Compute environment
 # ===========================================================================
 compute:
-  platform: "MacBook Pro M2"                    # Or: "AWS EC2 c5.4xlarge", "Local Linux box", etc.
+  platform: "MacBook Pro M3"                    # Or: "AWS EC2 c5.4xlarge", "Local Linux box", etc.
   cpu_cores: 8                                  # Number of CPU cores used
   ram_gb: 16                                    # Available RAM in GB
   python_version: "3.11.4"                      # python --version
@@ -51,8 +50,9 @@ compute:
 # may verify these declarations against your code; declarations that contradict
 # your code or your interview are flagged.
 ai_tools_used:
-  - "Claude"        # e.g. for architecture discussion, code review
-  - "GitHub Copilot"  # e.g. for autocomplete
+  - "Claude opus "        # e.g. for architecture discussion, code review
+  - "ChatGPT + "  # e.g. for autocomplete
+  - "gemini pro  "
   # Other options: "ChatGPT", "Cursor", "Gemini", "Codeium", "Other", "None"
 
 ai_usage_summary: |

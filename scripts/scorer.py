@@ -1,22 +1,3 @@
-"""Candidate scoring module for the recruitment hackathon ranking engine.
-
-This file is strictly responsible for scoring candidates based on their features
-and the job description keywords. It does not handle file I/O, writing, sorting,
-or other outside concerns.
-
-Quality Requirements Met:
-- Python 3.11+
-- Full type hints (TypedDict applied)
-- Google-style docstrings
-- PEP8 compliant
-- Modular / Keep functions small
-- Defensive programming
-- No global mutable state
-- No external dependencies
-- Deterministic behavior
-- Optimized CPU allocations for high volume iteration
-"""
-
 from typing import Any, Dict, List, Set, TypedDict
 
 # ==================================================

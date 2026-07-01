@@ -1,0 +1,362 @@
+{
+  "level_01_metadata": {
+    "job_title": "Senior AI Engineer \u2014 Founding Team",
+    "company": "Redrob AI",
+    "employment_type": "Full-time",
+    "location": "Pune / Noida, India",
+    "experience_range": "5\u20139 years",
+    "work_mode": "Hybrid (flexible cadence)",
+    "company_stage": "Series A Startup"
+  },
+  "level_02_core_mission": [
+    "Own the intelligence layer of Redrob's product",
+    "Build and improve ranking systems for candidate-JD matching",
+    "Build and improve retrieval systems for candidate discovery",
+    "Build and improve matching systems that drive recruiter search results",
+    "Drive long-term architecture of candidate-JD matching at scale"
+  ],
+  "level_03_responsibilities": [
+    "Audit current BM25 + rule-based scoring system and identify highest-leverage fixes",
+    "Ship a v2 ranking system that demonstrably improves recruiter-engagement metrics",
+    "Design and implement embeddings-based hybrid retrieval and LLM re-ranking architecture",
+    "Build evaluation infrastructure \u2014 offline benchmarks, online A/B testing, recruiter-feedback loops",
+    "Own the full intelligence layer (ranking, retrieval, matching)",
+    "Drive long-term candidate-JD matching architecture at scale",
+    "Mentor next round of hires (team growing from 4 to 12 engineers)",
+    "Ship working systems quickly ('ship a working ranker in a week')",
+    "Design evaluation frameworks for ranking systems (NDCG, MRR, MAP)",
+    "Build recruiter-experience workflows in collaboration with PM"
+  ],
+  "level_04_required_skills": [
+    "Embeddings (sentence-transformers, OpenAI, BGE, E5)",
+    "Evaluation Frameworks (NDCG, MRR, MAP, offline-online correlation)",
+    "LLMs (integration, re-ranking, prompt-vs-finetune judgment)",
+    "Python",
+    "Ranking Systems (end-to-end, production-deployed)",
+    "Retrieval Systems (hybrid / dense, production-deployed)",
+    "Vector Databases (Pinecone, Weaviate, Qdrant, Milvus, FAISS, etc.)"
+  ],
+  "level_05_preferred_skills": [
+    "Distributed Systems",
+    "HR Tech / Recruiting Tech",
+    "Inference Optimization",
+    "Learning to Rank (XGBoost-based or neural)",
+    "LoRA",
+    "Marketplace Product Experience",
+    "Open-Source Contributions (AI/ML space)",
+    "PEFT",
+    "QLoRA"
+  ],
+  "level_06_disqualifiers": [
+    "Pure Research / Academic Labs Only (no production deployment)",
+    "Only LangChain Experience (< 12 months, no pre-LLM ML)",
+    "No Production Code in last 18 months (architecture-only roles)",
+    "Only Consulting Career (TCS, Infosys, Wipro, Accenture, Cognizant, Capgemini \u2014 entire career)",
+    "Only Computer Vision / Speech / Robotics (no NLP/IR exposure)",
+    "Closed Source Only (5+ years without papers, talks, or open-source)",
+    "Title Chasers (switching every 1.5 years for title bumps)",
+    "Framework Enthusiasts Only (demo-level, no systems thinking)"
+  ],
+  "level_07_ideal_profile": {
+    "experience": "6\u20138 years total, of which 4\u20135 in applied ML/AI at product companies",
+    "company_type": "Product companies, NOT pure services",
+    "system_experience": "Shipped at least one end-to-end ranking/search/recommendation system at meaningful scale",
+    "opinions": "Strong opinions on retrieval (hybrid vs dense), evaluation (offline vs online), LLM integration (fine-tune vs prompt) \u2014 backed by systems actually built",
+    "location": "Located in, or willing to relocate to, Noida or Pune",
+    "availability": "Active on Redrob platform or clear signal of being in the job market"
+  },
+  "level_08_technical_stack": {
+    "languages": [
+      "Python"
+    ],
+    "frameworks": [
+      "sentence-transformers",
+      "OpenAI Embeddings API",
+      "BGE",
+      "E5",
+      "XGBoost (learning-to-rank)",
+      "LoRA / QLoRA / PEFT"
+    ],
+    "retrieval": [
+      "BM25",
+      "Hybrid Retrieval (sparse + dense)",
+      "Dense Retrieval",
+      "LLM-based Re-ranking"
+    ],
+    "vector_databases": [
+      "Pinecone",
+      "Weaviate",
+      "Qdrant",
+      "Milvus",
+      "OpenSearch",
+      "Elasticsearch",
+      "FAISS"
+    ],
+    "evaluation_metrics": [
+      "NDCG",
+      "MRR",
+      "MAP",
+      "Offline Benchmarks",
+      "Online A/B Testing",
+      "Recruiter-Feedback Loops",
+      "Offline-to-Online Correlation"
+    ],
+    "fine_tuning": [
+      "LoRA",
+      "QLoRA",
+      "PEFT"
+    ],
+    "infra": [
+      "Distributed Systems",
+      "Large-Scale Inference Optimization",
+      "Embedding Drift Monitoring",
+      "Index Refresh Pipelines"
+    ]
+  },
+  "level_09_experience": {
+    "minimum": 5,
+    "maximum": 9,
+    "preferred": "6\u20138",
+    "flexible": true,
+    "note": "Some people hit senior judgment at 4 years. Will seriously consider candidates outside the band if other signals are strong."
+  },
+  "level_10_seniority": {
+    "stated_title": "Senior AI Engineer",
+    "effective_level": "Senior",
+    "founding_team": true,
+    "note": "Founding team role \u2014 implies IC leadership without formal management title."
+  },
+  "level_11_domain": [
+    "Generative AI",
+    "Retrieval / Information Retrieval",
+    "Ranking / Learning to Rank",
+    "Search Systems",
+    "Recommendation Systems",
+    "Talent Intelligence / HR Tech",
+    "Marketplace Matching"
+  ],
+  "level_12_evaluation": {
+    "metrics": [
+      "NDCG",
+      "MRR",
+      "MAP"
+    ],
+    "methodology": [
+      "Offline Benchmarks",
+      "Online A/B Testing",
+      "Offline-to-Online Correlation",
+      "Recruiter-Feedback Loops"
+    ],
+    "importance": "Critical \u2014 JD says 'if you've never thought about how to evaluate a ranking system rigorously, this role will be very painful'"
+  },
+  "level_13_production_signals": [
+    "Production experience (repeated 4+ times)",
+    "Real Users / meaningful scale",
+    "Deployment to production",
+    "Scaling systems",
+    "Operational experience (embedding drift, index refresh, retrieval regression)",
+    "Inference optimization",
+    "Ship a working ranker in a week",
+    "This role writes code",
+    "Shipped end-to-end ranking/search/recommendation system"
+  ],
+  "level_14_company_preference": {
+    "preferred": "Product Companies (applied ML/AI roles)",
+    "acceptable": "Currently at consulting firm BUT with prior product-company experience",
+    "rejected": "Entire career at consulting/services firms (TCS, Infosys, Wipro, etc.)",
+    "note": "Not about skills \u2014 about engineering culture and product mindset."
+  },
+  "level_15_company_stage": {
+    "funding": "Series A",
+    "type": "Startup",
+    "team_growth": "Growing from 4 \u2192 12 engineers in next year",
+    "pace": "Fast-moving \u2014 role definition changes every 6 months",
+    "culture": "Async-first, write-heavy, disagree openly, decide quickly"
+  },
+  "level_16_soft_skills": [
+    "Written Communication (async-first, write-heavy culture)",
+    "Mentoring (mentoring next hires, 4 \u2192 12 team growth)",
+    "Ownership (own the intelligence layer \u2014 founding team mentality)",
+    "Decision Making (disagree openly, decide quickly)",
+    "Product Thinking (work with recruiter-experience PM, think about product)",
+    "Shipping Mindset ('ship a working ranker in a week', tilt toward shipper)",
+    "Systems Thinking (think about systems, not frameworks)",
+    "Adaptability (role changes every 6 months)"
+  ],
+  "level_17_logistics": {
+    "relocation": "Open to relocation from Tier-1 Indian cities (Hyderabad, Mumbai, Delhi NCR, Pune)",
+    "notice_period": "Prefer sub-30-day. Can buy out up to 30 days. 30+ still in scope but higher bar.",
+    "visa": "No international work visa sponsorship",
+    "travel": "Quarterly travel for offsites expected",
+    "office": "Offices in Noida and Pune, mostly used Tue/Thu, no fixed in-office requirement"
+  },
+  "level_18_item_frequency": [
+    {
+      "item": "Python",
+      "frequency": 2,
+      "section": "Required Skills",
+      "importance": "High"
+    },
+    {
+      "item": "Embeddings",
+      "frequency": 4,
+      "section": "Required Skills",
+      "importance": "High"
+    },
+    {
+      "item": "Retrieval",
+      "frequency": 7,
+      "section": "Required Skills",
+      "importance": "Critical"
+    },
+    {
+      "item": "Ranking",
+      "frequency": 8,
+      "section": "Required Skills",
+      "importance": "Critical"
+    },
+    {
+      "item": "LLMs",
+      "frequency": 4,
+      "section": "Required Skills",
+      "importance": "High"
+    },
+    {
+      "item": "Vector Databases",
+      "frequency": 2,
+      "section": "Required Skills",
+      "importance": "High"
+    },
+    {
+      "item": "Evaluation (NDCG/MRR/MAP)",
+      "frequency": 5,
+      "section": "Required Skills",
+      "importance": "Critical"
+    },
+    {
+      "item": "Production",
+      "frequency": 6,
+      "section": "Core Mission",
+      "importance": "Critical"
+    },
+    {
+      "item": "Hybrid Retrieval",
+      "frequency": 3,
+      "section": "Required Skills",
+      "importance": "High"
+    },
+    {
+      "item": "A/B Testing",
+      "frequency": 2,
+      "section": "Required Skills",
+      "importance": "High"
+    },
+    {
+      "item": "LoRA / QLoRA / PEFT",
+      "frequency": 1,
+      "section": "Nice to Have",
+      "importance": "Medium"
+    },
+    {
+      "item": "Learning to Rank",
+      "frequency": 1,
+      "section": "Nice to Have",
+      "importance": "Medium"
+    },
+    {
+      "item": "HR Tech",
+      "frequency": 2,
+      "section": "Nice to Have",
+      "importance": "Medium"
+    },
+    {
+      "item": "Distributed Systems",
+      "frequency": 1,
+      "section": "Nice to Have",
+      "importance": "Low"
+    },
+    {
+      "item": "Mentoring",
+      "frequency": 1,
+      "section": "Soft Skills",
+      "importance": "Medium"
+    },
+    {
+      "item": "Shipping Mindset",
+      "frequency": 3,
+      "section": "Core Culture",
+      "importance": "High"
+    },
+    {
+      "item": "Product Company Background",
+      "frequency": 4,
+      "section": "Company Preference",
+      "importance": "High"
+    },
+    {
+      "item": "Consulting-Only Career",
+      "frequency": 2,
+      "section": "Disqualifiers",
+      "importance": "Disqualifier"
+    },
+    {
+      "item": "Pure Research Only",
+      "frequency": 2,
+      "section": "Disqualifiers",
+      "importance": "Disqualifier"
+    },
+    {
+      "item": "LangChain-Only",
+      "frequency": 2,
+      "section": "Disqualifiers",
+      "importance": "Disqualifier"
+    }
+  ],
+  "level_19_section_weights": {
+    "Required Skills": 1.0,
+    "Core Mission": 0.95,
+    "Disqualifiers": 1.0,
+    "Ideal Profile": 0.85,
+    "Nice to Have": 0.5,
+    "Soft Skills": 0.6,
+    "Core Culture": 0.7,
+    "Company Preference": 0.8,
+    "Logistics": 0.4
+  },
+  "level_20_recruiter_intent": {
+    "mission": "Own candidate ranking and retrieval systems \u2014 the intelligence layer that decides what recruiters and candidates see",
+    "must_have": [
+      "Production retrieval / ranking system experience (not demos)",
+      "Python (strong, code-quality focused)",
+      "Ranking evaluation expertise (NDCG, MRR, MAP, A/B)",
+      "Vector databases / hybrid search infrastructure (operational)",
+      "Embeddings (deployed to real users, handled drift/regression)",
+      "LLM integration judgment (re-ranking, fine-tune vs prompt)"
+    ],
+    "good_to_have": [
+      "LoRA / QLoRA / PEFT fine-tuning",
+      "Learning-to-rank (XGBoost or neural)",
+      "HR-tech / recruiting-tech / marketplace background",
+      "Distributed systems / inference optimization",
+      "Open-source contributions in AI/ML"
+    ],
+    "deal_breakers": [
+      "Pure research only \u2014 no production deployment ever",
+      "LangChain-only experience (< 12 months, no pre-LLM ML)",
+      "No production code in last 18 months",
+      "Entire career at consulting/services firms",
+      "Only CV / speech / robotics \u2014 no NLP/IR",
+      "Closed source only for 5+ years with no external validation",
+      "Title chasers \u2014 switching every 1.5 years for promotions"
+    ],
+    "preferred_background": [
+      "Product companies (applied ML/AI)",
+      "End-to-end ranking / search / recommendation systems",
+      "6\u20138 years total, 4\u20135 in applied ML/AI",
+      "Startup or growth-stage experience",
+      "Systems thinking over framework enthusiasm"
+    ],
+    "preferred_engineer_type": "Shipper > Researcher \u2014 must be comfortable shipping fast with 'obviously suboptimal' ML to learn from real users, while also having deep technical depth when it matters",
+    "company_environment": "Series A startup, async-first, write-heavy, disagree openly, fast-moving, founding-team mentality, team scaling from 4 \u2192 12 engineers"
+  }
+}
